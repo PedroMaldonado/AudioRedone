@@ -28,11 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String LOG_TAG = "AudioRecordTest";
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
     private static String fileName = null;
-
-    public RecordButton recordButton = null;
     private MediaRecorder recorder = null;
-
-    public PlayButton playButton = null;
     private MediaPlayer player = null;
 
     private boolean permissionToRecordAccepted = false;
