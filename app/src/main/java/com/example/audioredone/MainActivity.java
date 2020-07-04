@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
-import android.content.Context;
 import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
@@ -15,8 +14,6 @@ import android.view.View;
 import android.widget.Button;
 
 import java.io.IOException;
-
-import com.example.audioredone.RecordButton;
 
 public class MainActivity extends AppCompatActivity {
 
